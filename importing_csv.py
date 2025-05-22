@@ -10,4 +10,4 @@ print(data.columns)
 
 print(data.dropna(axis=0))
 
-# print(data.price)
+print(data.price) #collums are storeed as methods so to list a colum you can just call it with the method
