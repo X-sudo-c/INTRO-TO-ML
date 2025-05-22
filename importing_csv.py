@@ -8,6 +8,6 @@ print(data.describe())
 
 print(data.columns)
 
-# print(data.dropna(axis=0))
+print(data.dropna(axis=0))
 
 # print(data.price)
