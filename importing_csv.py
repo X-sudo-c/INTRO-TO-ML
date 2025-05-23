@@ -10,4 +10,12 @@ print(data.columns)
 
 print(data.dropna(axis=0))
 
-print(data.price) #collums are storeed as methods so to list a colum you can just call it with the method
+print(data.price) #collums are stored as methods so to list a colum you can just call it with the method
+
+melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude' ]
+
+X = data[melbourne_features]
+
+X.describe()
+
+X.head()
