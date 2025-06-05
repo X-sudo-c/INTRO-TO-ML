@@ -19,3 +19,5 @@ X = data[melbourne_features]
 X.describe()
 
 X.head()
+
+#consistency is the key
